@@ -1,36 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-    
-     <header class="bg-white w-screen h-16 sticky top-0 flex items-center justify-between gap-10 px-8 z-[1000]">
-        
-         <div class="w-full flex items-center justify-between p-4 bg-slate-800">
-           
-            <div class="flex items-center">
-                <img src="./assets/Logo_header.png" alt="Logo" class="h-10 w-auto mr-4">
-               
-            </div>
+  </head>
+  <body>
 
-            <div className="sticky top-0 left-0 w-full xl:flex items-center justify-between">
-                <div className="w-full logo flex items-center gap-10">
-                  <ul className="flex gap-10">
-                    <li className="border-b-2 border-neutral-200 py-4">Home</li>
-                    <li  className="border-b-2 border-neutral-200 py-4">About</li>
-                    <li  className="border-b-2 border-neutral-200 py-4">Cv</li>
-                    <li  className="border-b-2 border-neutral-200 py-4">Education</li>
-                    <li  className="border-b-2 border-neutral-200 py-4">Testimonial</li>
-                    <li  className="border-b-2 border-neutral-200 py-4">Article</li>
-                  </ul>
-                </div>
-            <button>Contact</button>
-           
-        </div> 
-    </header> 
-</body>
+    
+    <header
+      class="bg-white w-full h-16 sticky top-0 flex items-center justify-between gap-10 px-8 z-[1000]"
+    >
+      <div class="flex items-center">
+        <img
+          src="./assets/Logo_header.png"
+          alt="Logo"
+          class="h-10 w-auto mr-4  "
+        />
+      </div>
+    
+      <div class="logo flex items-center gap-4 ">
+        <ul class="flex bg-pink-40 gap-4">
+          <li class="px-4 py-2 bg-amber-200 text-slate-600">Home</li>
+          <li class="px-4 py-2 text-slate-600">About</li>
+          <li class="px-4 py-2 text-slate-600">Cv</li>
+          <li class="px-4 py-2 text-slate-600">Education</li>
+          <li class="px-4 py-2 text-slate-600">Testimonial</li>
+          <li class="px-4 py-2 text-slate-600">Article</li>
+        </ul>
+        <span class="h-6 border-l-2 border-slate-600"></span>
+        <button class="bg-amber-300 px-4 py-2 mx-2">Contact</button>
+      </div>
+
+    </header>
+
+  <!-- Hero Section -->
+    <section class="bg-amber-100 w-full flex items-center justify-between px-8 py-16">
+      <div class="flex items-center">
+        <img
+          src="./assets/RALPH EDWARDS.png"
+          alt="Logo"
+          class="w-10  "
+        />
+      </div>
+      <div class="max-w-lg">
+        <h1 class="text-4xl font-bold text-slate-800 mb-6">
+          27+ Years of Neurologists Doctor.
+        </h1>
+        <p class="text-lg text-slate-600 mb-8">
+          Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non dolor aliquam faucibus odio tempus nibh.
+          faucibus odio tempus nibh.
+        </p>
+        <div class="flex gap-4">
+          <button class="bg-amber-300 text-slate-800 px-6 py-3 rounded font-semibold hover:bg-amber-400">
+            Learn About Me
+          </button>
+          <button class="bg-white border border-amber-300 text-slate-600 px-6 py-3 rounded hover:bg-slate-100">
+            Patient Success Story
+          </button>
+        </div>
+      </div>
+      <div class="flex max-w-[814px] self-end">
+        <img
+          src="./assets/Hero-image.png"
+          alt="Doctor"
+          class="h-36 w-auto mr-4"
+        />
+      </div>
+      </section>
+<!-- About -->
+      <section class="bg-white py-6 px-7 ">
+        <div class="container mx-auto flex flex-col  shadow-xl  md:flex-row items-center gap-10 justify-center">
+          
+          <div class="w-fullmd:w-1/3">
+            <img
+              src="./assets/about-image.png"
+              alt="Ralph Edwards"
+              class=" "
+            />
+          </div>
+          
+          <div class="w-full md:w-2/3">
+            <h2 class="text-3xl font-bold text-slate-800 mb-4 p-5">Hello, I’m Ralph Edwards.</h2>
+            <p class="text-gray-600 mb-6 p-5">
+              Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non dolor. Aliquam faucibus odio tempus nibh fringilla tincidunt. Proin luctus dui odio, sed egestas erat condimentum non.
+            </p>
+            <div class="flex items-center gap-4">
+              <button class="bg-amber-300 px-6 py-3 rounded text-white">
+                Send Message
+              </button>
+              <button class="bg-slate-600 px-6 py-3 rounded text-white">
+                Download CV
+              </button>
+              <!-- Featured Logo -->
+      <div class="mt-6 flex items-center gap-4">
+        <img
+          src="./assets/Featured by.png"
+          alt="Featured"
+          class="max-h-11 w-auto"
+        />
+            </div>
+          </section>
+
+          <!-- Working History -->
+      <section class="py-20 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-10 text-slate-800">
+                My Working History
+                <p class="text-gray-600 mb-6 text-sm p-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus leo vel augue suscipit bibendum.</p>
+           </h2>
+         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-6">
+                
+          <div class="mt-6 flex items-center gap-4 p-6">
+                  <img
+                    src="./assets/Work History Card(1).png"
+                    alt="Featured"
+                    class="h-12 w-auto"/>
+                  
+             </div>
+              <div class="mt-6 flex items-center gap-4">
+                    <img
+                       src="./assets/Work History Card (2).png"
+                        alt="Featured"
+                        class="h-12 w-auto"/>
+                        
+              </div>
+                <div class="mt-6 flex items-center gap-4">
+                     <img
+                      src="./assets/Work History Card (3).png"
+                      alt="Featured"
+                      class="h-12 w-auto"/>
+                              
+                      </div>
+
+         </section>
+      
+  </body>
 </html>
