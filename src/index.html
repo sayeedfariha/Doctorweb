@@ -1,439 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
-    <title>Document</title>
-  </head>
-  <body>
 
-    
-    <header
-      class="bg-white w-full h-16 sticky top-0 flex items-center justify-between gap-10 px-8 z-[1000]"
-    >
-      <div class="flex items-center">
-        <img
-          src="./assets/Logo_header.png"
-          alt="Logo"
-          class="h-10 w-auto mr-4  "
-        />
-      </div>
-    
-      <div class="logo flex items-center gap-4 ">
-        <ul class="flex bg-pink-40 gap-4">
-          <li class="px-4 py-2 bg-amber-200 text-slate-600">Home</li>
-          <li class="px-4 py-2 text-slate-600">About</li>
-          <li class="px-4 py-2 text-slate-600">Cv</li>
-          <li class="px-4 py-2 text-slate-600">Education</li>
-          <li class="px-4 py-2 text-slate-600">Testimonial</li>
-          <li class="px-4 py-2 text-slate-600">Article</li>
-        </ul>
-        <span class="h-6 border-l-2 border-slate-600"></span>
-        <button class="bg-amber-300 px-4 py-2 mx-2">Contact</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <link href="./input.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
+  
+  
+  <title>Document</title>
+</head>
 
-    </header>
+<body class="regular">
+
+
+  <header class="bg-white w-full h-16 sticky top-0 flex items-center justify-between gap-10 px-8 z-[1000]">
+    <div class="flex items-center">
+      <img src="./assets/Logo_header.png" alt="Logo" class="h-16 w-auto mr-4  " />
+    </div>
+
+    <div class="logo flex items-center gap-4 ">
+      <ul class="flex bg-pink-40 gap-4">
+        <li class="px-4 py-2 bg-amber-200 text-slate-600">Home</li>
+        <li class="px-4 py-2 text-slate-600">About</li>
+        <li class="px-4 py-2 text-slate-600">Cv</li>
+        <li class="px-4 py-2 text-slate-600">Education</li>
+        <li class="px-4 py-2 text-slate-600">Testimonial</li>
+        <li class="px-4 py-2 text-slate-600">Article</li>
+      </ul>
+      <span class="h-6 border-l-2 border-slate-600"></span>
+      <button class="bg-amber-300 px-4 py-2 mx-2">Contact</button>
+    </div>
+
+  </header>
 
   <!-- Hero Section -->
-    <section class="bg-amber-100 w-full flex items-center justify-between px-8 py-16">
-      <div class="flex items-center">
+  <section class="relative bg-amber-100 w-full h-[100vh] flex items-center justify-between">
+    <div class="flex justify-end w-full ">
+      <div class="w-[75%] p-10">
         
-      </div>
-      <div class="max-w-lg">
-        <h1 class="text-4xl font-bold text-slate-800 mb-6">
+         <img src="assets/RALPH EDWARDS.png " class="p-2"/>
+        <h1 class="bold text-5xl font-bold text-slate-800 mb-6">
           27+ Years of Neurologists Doctor.
         </h1>
-        <p class="text-lg text-slate-600 mb-8">
-          Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non dolor aliquam faucibus odio tempus nibh.
+        <p class="text-md text-slate-600 mb-8">
+          Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non
+          dolor
+          aliquam faucibus odio tempus nibh.
           faucibus odio tempus nibh.
         </p>
         <div class="flex gap-4">
           <button class="bg-amber-300 text-slate-800 px-6 py-3 rounded font-semibold hover:bg-amber-400">
             Learn About Me
           </button>
-          <button class="bg-white border border-amber-300 text-slate-600 px-6 py-3 rounded hover:bg-slate-100">
+          <button class="bg-white border-2 border-amber-300 text-slate-800 font-semibold px-6 py-3 rounded hover:bg-slate-100">
             Patient Success Story
           </button>
         </div>
       </div>
-      <div class="flex max-w-[814px] self-end">
-        <img
-          src="./assets/Hero-image.png"
-          alt="Doctor"
-          class="h-44 w-auto mr-4"
-        />
-      </div>
-      </section>
-<!-- About -->
-      <section class="bg-white py-6 px-7 ">
-        <div class="container mx-auto flex flex-col  shadow-xl  md:flex-row items-center gap-10 justify-center">
-          
-          <div class="w-fullmd:w-1/3">
-            <img
-              src="./assets/about-image.png"
-              alt="Ralph Edwards"
-              class=" "
-            />
-          </div>
-          
-          <div class="w-full md:w-2/3">
-            <h2 class="text-3xl font-bold text-slate-800 mb-4 p-5">Hello, I’m Ralph Edwards.</h2>
-            <p class="text-gray-600 mb-6 p-5">
-              Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non dolor. Aliquam faucibus odio tempus nibh fringilla tincidunt. Proin luctus dui odio, sed egestas erat condimentum non.
-            </p>
-            <div class="flex items-center gap-4">
-              <button class="bg-amber-300 px-6 py-3 rounded text-white">
-                Send Message
-              </button>
-              <button class="bg-slate-600 px-6 py-3 rounded text-white">
-                Download CV
-              </button>
-              <!-- Featured Logo -->
-      <div class="mt-6 flex items-center gap-4">
-        <img
-          src="./assets/Featured by.png"
-          alt="Featured"
-          class="max-h-11 w-auto"
-        />
-            </div>
-          </section>
-
-          <!-- Working History -->
-      <section class="py-20 bg-white">
-        <div class="container mx-auto">
-          <h2 class="text-3xl font-bold text-center mb-10 text-slate-800">
-                My Working History</h2>
-                <p class="text-gray-600  p-5 text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus leo vel augue suscipit bibendum.</p>
-           
-         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-6">
-                
-          <div class="mt-6 flex items-center gap-4 p-6">
-                  <img
-                    src="./assets/Work History Card(1).png"
-                    alt="Featured"
-                    class="h-auto w-auto"/>
-                  
-             </div>
-              <div class="mt-6 flex items-center gap-4">
-                    <img
-                       src="./assets/Work History Card (2).png"
-                        alt="Featured"
-                        class="h-auto w-auto"/>
-                        
-              </div>
-                <div class="mt-6 flex items-center gap-4">
-                     <img
-                      src="./assets/Work History Card (3).png"
-                      alt="Featured"
-                      class="h-auto w-auto"/>
-                              
-                      </div>
-
-         </section>
-
-      <!-- Testimonial -->
-      <section class="bg-[#0C1B33] py-16 px-8 text-white">
-        <div class="container mx-auto flex flex-col lg:flex-row items-center gap-12">
-          
-          <div class="lg:w-1/2">
-            <h3 class="text-yellow-400 text-sm mb-4 tracking-wide">WHAT MY COLLEGE SAYS ABOUT ME.</h3>
-            <p class="text-2xl lg:text-3xl font-semibold leading-relaxed mb-6">
-              “Life is unpredictable, not everything’s in our control. But as long as you with the right people you can handle anything.”
-            </p>
-            <p class="text-sm font-light uppercase">MR. John Wick</p>
-            <p class="text-xs opacity-75">PSYCHIATRIST DOCTOR</p>
-            
-            <div class="flex items-center mt-6 gap-2">
-              <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
-              <span class="w-2 h-2 bg-white rounded-full"></span>
-              <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
-              <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
-            </div>
-          </div>
-      
-          <!-- Right: Doctors Image -->
-          <div class="lg:w-1/2 flex justify-center">
-            <img
-              src="./assets/Doctors.png"
-              alt="Doctors"
-              class="w-full max-w-md object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      <!-- Awards -->
-       <section class="py-20 bg-white" >
-        <div class="container mx-auto">
-          <h2 class="text-3xl font-bold text-center mb-10 text-slate-800">
-            My Qualification & Awards</h2>
-                <p class="text-gray-600  p-5 text-center"> Mauris porttitor eleifend odio, id venenatis orci ornare ac. Nullam id convallis nisl. Sed ullamcorper lacinia suscipit. </p>
-                <div class=" lex justify-center items-center p-8">
-                  <img
-              src="./assets/awards.png"
-              alt="Doctors"
-              class="w-full max-w-full object-contain p-8"
-            />
-
-       </section>
-       
-       <!-- books -->
-<section>
-  <div class="flex flex-col lg:flex-row">
-   
-    <div class="relative w-full lg:w-1/2 bg-gray-200">
-      <div class="absolute inset-0 lg:-left-1/4 lg:w-[150%]">
-        <!-- Book Image -->
-        <img src="assets/Books.png" alt="Book Image" class=" w-full max-w-md">
-      </div>
     </div>
-  
-   
-    <div class="w-full lg:w-1/2 bg-[#10223D] text-white p-8">
-      <h2 class="text-2xl font-bold mb-4">The Highly Sensitive Person</h2>
-      <p class="text-gray-300 mb-6">
-        Are you easily overwhelmed by such things as bright lights, strong smells, coarse fabrics, or sirens nearby?
-      </p>
-  
-      
-      <div class="flex items-center mb-6">
-        <img src="assets/profile.png" alt="Profile" class="w-12 h-12 rounded-full mr-3">
-        <div>
-          <p class="text-sm">WRITTEN BY:</p>
-          <p class="font-bold">Kevin Gilbert</p>
-        </div>
-      </div>
-  
-      <div class="flex items-center mb-4">
-     
-        <div class="w-6 h-6 rounded-full bg-white flex items-center justify-center">
-          <span class="text-[#10223D] font-bold">&check;</span>
-        </div>
-        <p class="ml-3">
-          <strong>Your trait is normal.</strong><br>
-          Do you make it a high priority to arrange your life to avoid upsetting or overwhelming situations?
+
+    <div class="h-full w-3/4 ">
+      <img src="./assets/Hero-image.png" alt="Doctor" class="h-[90%] w-auto" />
+    </div>
+
+    <!-- About -->
+
+    <div
+      class="absolute -bottom-28 w-[75vw] h-auto left-1/2 -translate-x-1/2 translate-y-32 bg-white flex flex-col shadow-xl  md:flex-row items-start justify-start gap-4 p-12">
+
+
+      <img src="./assets/about-image.png" alt="Ralph Edwards" class="w-auto h-64 " />
+
+      <div class="w-2/4 h-full flex flex-col justify-between gap-8">
+        <h2 class="text-3xl font-bold text-slate-800">Hello, I’m Ralph Edwards.</h2>
+        <p class="text-sm text-gray-600">
+          Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non
+          dolor. Aliquam faucibus odio tempus nibh fringilla tincidunt. Proin luctus dui odio, sed egestas erat
+          condimentum non.
         </p>
-      </div>
-  
-      <div class="flex items-center">
-       
-        <div class="w-6 h-6 rounded-full bg-white flex items-center justify-center">
-          <span class="text-[#10223D] font-bold">&check;</span>
-        </div>
-        <p class="ml-3">
-          <strong>You are also more easily overwhelmed.</strong><br>
-          If you find you are highly sensitive, or your child is, I’d like you to know the following:
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Success Stories -->
-<section>
-  <div class="flex flex-col lg:flex-row items-center justify-center gap-8 px-8 py-12">
- 
-    <div class="lg:w-1/2 w-full text-left">
-      <h2 class="text-3xl lg:text-4xl font-bold text-[#10223D] mb-4 p-6">
-        863+ Patients<br> Success Stories
-      </h2>
-      <p class="text-gray-500 mb-6">
-        Mauris porttitor eleifend odio, id venenatis orci ornare ac nullam id convallis nisl.
-      </p>
-    
-      <div class="flex items-center gap-4">
-        
-        <button class="w-10 h-10 rounded-full border-2 border-yellow-400 flex items-center justify-center text-yellow-400">
-          &#8592;
-        </button>
-       
-        <button class="w-10 h-10 rounded-full border-2 border-yellow-400 flex items-center justify-center text-yellow-400">
-          &#8594;
-        </button>
-      </div>
-      
-      <div class="flex gap-1 mt-4">
-        <span class="w-2 h-2 rounded-full bg-gray-300"></span>
-        <span class="w-2 h-2 rounded-full bg-[#10223D]"></span>
-        <span class="w-2 h-2 rounded-full bg-gray-300"></span>
-        <span class="w-2 h-2 rounded-full bg-gray-300"></span>
-      </div>
-    </div>
-  
-   
-    <div class="lg:w-1/2 w-full">
-      <div class="bg-yellow-50 border-2 border-yellow-400 p-10   relative">
-        <!-- Quote Symbol -->
-        <div class="absolute -top-3 left-4 text-4xl font-bold text-yellow-600">
-        
-        </div>
-        <!-- Quote Text -->
-        <p class="text-gray-700 ">
-          When a military doctor tracks down his former fiancee's kidnapped niece, he discovers a complex human trafficking ring in Goa. He then weaves an intricate trap to capture the perpetrators.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Latest Event & Show Section -->
- <section>
- 
-<div class="bg-gray-100 py-16">
-  <div class="container mx-auto px-8">
-    <!-- Section Content -->
-    <div class="flex flex-col lg:flex-row justify-between mb-8">
-      
-      <div class="w-full lg:w-1/2">
-        <h2 class="text-4xl font-bold text-slate-950 mb-4">
-          Latest Event & Show
-        </h2>
-        <p class="text-gray-500 leading-relaxed">
-          Donec suscipit dictum risus sed dignissim. Fusce ex leo, lobortis sed ullamcorper in, rutrum eu enim.
-        </p>
-      </div>
-
-      <!-- Right Side: Navigation Buttons -->
-      <div class="flex items-start space-x-4">
-        <!-- Left Navigation Button -->
-        <button class="w-12 h-12 border-2 border-yellow-400 rounded-full flex items-center justify-center hover:bg-yellow-400 hover:text-white">
-          <span>&#8592;</span>
-        </button>
-        <!-- Right Navigation Button -->
-        <button class="w-12 h-12 border-2 border-yellow-400 rounded-full flex items-center justify-center hover:bg-yellow-400 hover:text-white">
-          <span>&#8594;</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Events Cards -->
-    <div class="flex flex-col lg:flex-row justify-center gap-8 mb-8">
-      
-      <div class="bg-white shadow-md rounded-md p-6 w-full lg:w-1/2">
-        <div class="flex items-center text-blue-500 mb-4 space-x-4">
-          <div class="flex items-center">
-            <span class="text-lg">&#128197;</span>
-            <span class="ml-2 text-sm text-gray-600">8 Sep, 2020</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-lg">&#128172;</span>
-            <span class="ml-2 text-sm text-gray-600">125 Comments</span>
-          </div>
-        </div>
-        <h3 class="text-lg font-bold text-[#0C1B2E] mb-2">BMA Events</h3>
-        <p class="text-gray-500 text-sm leading-relaxed">
-          Quisque vitae ante dolor. Duis vehicula purus eget libero interdum ornare. Vestibulum ut risus nec odio rhoncus malesuada. Duis lobortis consectetur magna, in faucibus mauris congue tempor.
-        </p>
-      </div>
-
-     
-      <div class="bg-white shadow-md rounded-md p-6 w-full lg:w-1/2">
-        <div class="flex items-center text-blue-500 mb-4 space-x-4">
-          <div class="flex items-center">
-            <span class="text-lg">&#128197;</span>
-            <span class="ml-2 text-sm text-gray-600">8 Sep, 2020</span>
-          </div>
-          <div class="flex items-center">
-            <span class="text-lg">&#128172;</span>
-            <span class="ml-2 text-sm text-gray-600">125 Comments</span>
-          </div>
-        </div>
-        <h3 class="text-lg font-bold text-[#0C1B2E] mb-2">CESR seminar for SAS grade doctors</h3>
-        <p class="text-gray-500 text-sm leading-relaxed">
-          Quisque vitae ante dolor. Duis vehicula purus eget libero interdum ornare. Vestibulum ut risus nec odio rhoncus malesuada. Duis lobortis consectetur magna, in faucibus mauris congue tempor.
-        </p>
-      </div>
-    </div>
-
-    <!-- Dots for Pagination -->
-    <div class="flex justify-center space-x-2">
-      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
-      <span class="w-3 h-3 bg-[#0C1B2E] rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
-      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
-    </div>
-  </div>
-</div>
-
- </section>
-
-
-<!-- Footer -->
-<section class="bg-[#0C1B33] py-16 px-8 text-white">
-  <div class="container mx-auto px-8 py-16">
-   
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-b border-gray-600 pb-8">
-      <div>
-        <h2 class="text-3xl font-bold mb-2">Looking for a Neurologists Doctor? Get in touch and let's chat!</h2>
-        
-      </div>
-      <div>
-        <p class="text-gray-400 mb-4">
-          Donec in bibendum risus. Cras eget imperdiet sapien. Donec sollicitudin maximus augue, non elementum quam ultrices non.
-        </p>
-        <a 
-          href="#"
-          class="inline-flex items-center px-6 py-3 bg-yellow-400 text-neutral-950 font-bold rounded hover:bg-yellow-500"
-        >
-          Get In Touch &nbsp; →
-        </a>
-      </div>
-    </div>
-
-    
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-8">
-      
-      <div class="flex items-center">
-        <div class="bg-white text-neutral-950 font-bold text-2xl px-4 py-2">
-          RALPH<br>EDWARDS.
+        <div class="flex items-center gap-4">
+          <button class="flex items-center gap-2 bg-amber-300 px-6 py-3  text-black">
+            <p>Send Message</p>
+            <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+          </button>
+          <button class="flex items-center gap-2 border-2 border-amber-300  px-6 py-3 text-black">
+            <span class="material-symbols-outlined">
+              download
+              </span>
+            <p>Download CV</p>
+          </button>
+          <!-- Featured Logo -->
         </div>
       </div>
-
-    
-      <div>
-        <h3 class="text-sm font-bold mb-2">LOCATION</h3>
-        <p class="text-gray-400">
-          4517 Washington Ave.<br>
-          Manchester, Kentucky 39495
-        </p>
-      </div>
-
-      <div>
-        <h3 class="text-sm font-bold mb-2">QUICK LINKS</h3>
-        <ul class="flex  gap-4">
-          
-         
-          <li class="hover:text-yellow-400">About</li>
-          <li class="bg-yellow-400 text-neutral-950 font-bold px-2 py-1 rounded">CV</li>
-          <li class="hover:text-yellow-400">Events</li>
-          <li class="hover:text-yellow-400">Article</li>
-          <li class="hover:text-yellow-400">Contact</li>
-        </ul>
-      </div>
-
-  
-      <div>
-        <h3 class="text-sm font-bold mb-2">FOLLOW ME</h3>
-        <div class="flex space-x-4 items-center">
-
-          <ul class="flex  gap-4">
-          
-          <li class="bg-yellow-400 text-neutral-950 font-bold px-2 py-1 rounded">in</li>
-         
-          </ul>
-        </div>
+      <div class="">
+        <img src="./assets/Featured by.png" alt="Featured" class="w-auto" />
       </div>
     </div>
-
-    <div class="mt-10 text-center text-gray-400 text-sm">
-      <p>&copy; 2006-Current Winston Potter and respective copyright holders.</p>
-    </div>
-  </div>
   </section>
 
+
+  <!-- Working History -->
+  <section class="mt-64 py-20 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10 text-slate-800">
+        My Working History</h2>
+      <p class="text-gray-600  p-5 text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+        dapibus leo vel augue suscipit bibendum.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-6">
+
+        <div class="mt-6 flex items-center gap-4 p-6">
+          <img src="./assets/Work History Card(1).png" alt="Featured" class="h-auto w-auto" />
+
+        </div>
+        <div class="mt-6 flex items-center gap-4">
+          <img src="./assets/Work History Card (2).png" alt="Featured" class="h-auto w-auto" />
+
+        </div>
+        <div class="mt-6 flex items-center gap-4">
+          <img src="./assets/Work History Card (3).png" alt="Featured" class="h-auto w-auto" />
+
+        </div>
+      
+        <img src="assets/Button.png" class="justify-center"/>
        
-  </body>
+
+  </section>
+
+  <!-- Testimonial -->
+  <section class="bg-[#0C1B33] py-16 px-8 text-white">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center gap-12">
+
+      <div class="w-1/2 justify-center ">
+        <h3 class="text-yellow-400 text-sm mb-4 tracking-wide">WHAT MY COLLEGE SAYS ABOUT ME.</h3>
+        <p class="text-2xl lg:text-3xl font-semibold leading-relaxed mb-6">
+          “Life is unpredictable, not everything’s in our control. But as long as you with the right people you can
+          handle anything.”
+        </p>
+        <p class="text-sm font-light uppercase">MR. John Wick</p>
+        <p class="text-xs opacity-75">PSYCHIATRIST DOCTOR</p>
+
+        <div class="flex items-center mt-6 gap-2">
+          <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+          <span class="w-2 h-2 bg-white rounded-full"></span>
+          <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+          <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+        </div>
+      </div>
+
+      <!-- Right: Doctors Image -->
+      <div class="lg:w-1/2 flex justify-center">
+        <img src="./assets/Doctors.png" alt="Doctors" class="w-full max-w-md object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10 text-slate-800">
+        My Qualification & Awards</h2>
+      <p class="text-gray-600  p-5 text-center"> Mauris porttitor eleifend odio, id venenatis orci ornare ac. Nullam id
+        convallis nisl. Sed ullamcorper lacinia suscipit. </p>
+      <div class=" lex justify-center items-center p-8">
+        <img src="./assets/awards.png" alt="Doctors" class="w-full max-w-full object-contain p-8" />
+
+  </section>
+
+  <!-- books -->
+  <section>
+    <div class="flex flex-col lg:flex-row">
+
+      <div class="relative w-full lg:w-1/2 bg-gray-200">
+        <div class="absolute inset-0 lg:-left-1/4 lg:w-[150%]">
+          <!-- Book Image -->
+          <img src="assets/Books.png" alt="Book Image" class=" w-full max-w-md">
+        </div>
+      </div>
+
+
+      <div class="w-full lg:w-1/2 bg-[#10223D] text-white p-8">
+        <h2 class="text-2xl font-bold mb-4">The Highly Sensitive Person</h2>
+        <p class="text-gray-300 mb-6">
+          Are you easily overwhelmed by such things as bright lights, strong smells, coarse fabrics, or sirens nearby?
+        </p>
+
+
+        <div class="flex items-center mb-6">
+          <img src="assets/profile.png" alt="Profile" class="w-12 h-12 rounded-full mr-3">
+          <div>
+            <p class="text-sm text-gray-400">WRITTEN BY:</p>
+            <p class="font-bold">Kevin Gilbert</p>
+          </div>
+        </div>
+
+        <div class="flex items-center mb-4">
+
+          <div class="w-6 h-6 rounded-full bg-white flex items-center justify-center">
+            <span class="text-[#10223D] font-bold">&check;</span>
+          </div>
+          <p class="ml-3">
+            <strong>Your trait is normal.</strong><br>
+            Do you make it a high priority to arrange your life to avoid upsetting or overwhelming situations?
+          </p>
+        </div>
+
+        <div class="flex items-center">
+
+          <div class="w-6 h-6 rounded-full bg-white flex items-center justify-center">
+            <span class="text-[#10223D] font-bold">&check;</span>
+          </div>
+          <p class="ml-3">
+            <strong>You are also more easily overwhelmed.</strong><br>
+            If you find you are highly sensitive, or your child is, I’d like you to know the following:
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Stories -->
+  <section>
+    <div class="flex flex-col lg:flex-row items-center justify-center gap-8 px-8 py-12">
+
+      <div class="lg:w-1/2 w-full text-left">
+        <h2 class="text-3xl lg:text-4xl font-bold text-[#10223D] mb-4 p-6">
+          863+ Patients<br> Success Stories
+        </h2>
+        <p class="text-gray-500 mb-6">
+          Mauris porttitor eleifend odio, id venenatis orci ornare ac nullam id convallis nisl.
+        </p>
+
+        <div class="flex items-center gap-4">
+        <img src="assets/Button.png"/>
+         
+        </div>
+
+        <div class="flex gap-1 mt-4">
+          <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+          <span class="w-2 h-2 rounded-full bg-[#10223D]"></span>
+          <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+          <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+        </div>
+      </div>
+
+
+      <div class="lg:w-1/2 w-full">
+        <div class="bg-yellow-50 border-2 border-yellow-400 p-10   relative">
+          <!-- Quote Symbol -->
+          <div class="absolute -top-3 left-4 text-4xl font-bold text-yellow-600">
+
+          </div>
+          <!-- Quote Text -->
+          <p class="text-gray-700 ">
+            When a military doctor tracks down his former fiancee's kidnapped niece, he discovers a complex human
+            trafficking ring in Goa. He then weaves an intricate trap to capture the perpetrators.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Latest Event & Show Section -->
+  <section>
+
+    <div class="bg-gray-100 py-16">
+      <div class="container mx-auto px-8">
+        <!-- Section Content -->
+        <div class="flex flex-col lg:flex-row justify-between mb-8">
+
+          <div class="w-full lg:w-1/2">
+            <h2 class="text-4xl font-bold text-slate-950 mb-4">
+              Latest Event & Show
+            </h2>
+            <p class="text-gray-500 leading-relaxed">
+              Donec suscipit dictum risus sed dignissim. Fusce ex leo, lobortis sed ullamcorper in, rutrum eu enim.
+            </p>
+          </div>
+
+          <!-- Right Side: Navigation Buttons -->
+          <div class="flex items-start space-x-4">
+            <!-- Left Navigation Button -->
+             <img src="assets/Button.png"/>
+           
+          </div>
+        </div>
+
+        <!-- Events Cards -->
+        <div class="flex flex-col lg:flex-row justify-center gap-8 mb-8">
+
+          <div class="bg-white shadow-md rounded-md p-6 w-full lg:w-1/2">
+            <div class="flex items-center text-blue-500 mb-4 space-x-4">
+              <div class="flex items-center">
+                <span class="text-lg">&#128197;</span>
+                <span class="ml-2 text-sm text-gray-600">8 Sep, 2020</span>
+              </div>
+              <div class="flex items-center">
+                <span class="text-lg">&#128172;</span>
+                <span class="ml-2 text-sm text-gray-600">125 Comments</span>
+              </div>
+            </div>
+            <h3 class="text-lg font-bold text-[#0C1B2E] mb-2">BMA Events</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              Quisque vitae ante dolor. Duis vehicula purus eget libero interdum ornare. Vestibulum ut risus nec odio
+              rhoncus malesuada. Duis lobortis consectetur magna, in faucibus mauris congue tempor.
+            </p>
+          </div>
+
+
+          <div class="bg-white shadow-md rounded-md p-6 w-full lg:w-1/2">
+            <div class="flex items-center text-blue-500 mb-4 space-x-4">
+              <div class="flex items-center">
+                <span class="text-lg">&#128197;</span>
+                <span class="ml-2 text-sm text-gray-600">8 Sep, 2020</span>
+              </div>
+              <div class="flex items-center">
+                <span class="text-lg">&#128172;</span>
+                <span class="ml-2 text-sm text-gray-600">125 Comments</span>
+              </div>
+            </div>
+            <h3 class="text-lg font-bold text-[#0C1B2E] mb-2">CESR seminar for SAS grade doctors</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              Quisque vitae ante dolor. Duis vehicula purus eget libero interdum ornare. Vestibulum ut risus nec odio
+              rhoncus malesuada. Duis lobortis consectetur magna, in faucibus mauris congue tempor.
+            </p>
+          </div>
+        </div>
+
+        <!-- Dots for Pagination -->
+        <div class="flex justify-center space-x-2">
+          <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+          <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+          <span class="w-3 h-3 bg-[#0C1B2E] rounded-full"></span>
+          <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+          <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <section class="bg-[#0C1B33] py-16 px-8 text-white">
+    <div class="container mx-auto px-8 py-16">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-b border-gray-600 pb-8">
+        <div>
+          <h2 class="text-3xl font-bold mb-2">Looking for a Neurologists Doctor? Get in touch and let's chat!</h2>
+
+        </div>
+        <div>
+          <p class="text-gray-400 mb-4">
+            Donec in bibendum risus. Cras eget imperdiet sapien. Donec sollicitudin maximus augue, non elementum quam
+            ultrices non.
+          </p>
+          <button
+            class="inline-flex items-center px-6 py-3 bg-yellow-400 text-neutral-950 font-bold hover:bg-yellow-500 gap-4">
+            <p>Get In Touch </p> 
+            <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+        </button>
+        </div>
+      </div>
+
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-8">
+
+        <div class="flex items-center">
+          <div class="bg-white text-neutral-950 font-bold text-2xl px-4 py-2">
+            RALPH<br>EDWARDS.
+          </div>
+        </div>
+
+
+        <div>
+          <h3 class="text-sm font-bold mb-2">LOCATION</h3>
+          <p class="text-gray-400">
+            4517 Washington Ave.<br>
+            Manchester, Kentucky 39495
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-sm font-bold mb-2">QUICK LINKS</h3>
+          <img src="assets/Nav_Links.png"/>
+         
+        </div>
+
+
+        <div>
+          <h3 class="text-sm font-bold mb-2">FOLLOW ME</h3>
+          <div class="flex space-x-4 items-center">
+            <img src="assets/Social Media Icon.png"/>
+
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 text-center text-gray-400 text-sm">
+        <p>&copy; 2006-Current Winston Potter and respective copyright holders.</p>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
 </html>
